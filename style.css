@@ -1,0 +1,101 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
+
+
+
+body {
+    background-color: #444;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    height:100vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+
+.container{
+    width: 450px;
+    height: 300px;
+    padding: 20px;
+    background-color: rgb(71, 212, 223);
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 10px 5px 5px rgb(10, 133, 133);
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+
+
+html {
+    font-size: 15px;
+  }
+  
+ 
+  
+  h1 {
+    color:purple;
+    font-size: 2rem;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  
+  
+  .counter-div {
+    width: 40rem;
+    border: 1px solid grey;;
+    padding: 1rem;
+    background-color: blue;
+    color: var(--white);
+    text-align: center;
+    border-radius: 5px;
+  }
+  
+  .counter-div > * {
+    margin-bottom: 2rem;
+  }
+  
+  .count {
+    font-size: 5rem;
+    border: 2px solid purple;
+    padding: 10px;
+  }
+  
+  .buttons button {
+    padding: 1rem;
+    margin: 0 1rem;
+    font-size: 1.5rem;
+    color: #fff;
+    font-weight: 700;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  button.subtract {
+    background-color: orangered;
+  }
+  button.reset {
+    background-color: #fff;
+    color: #000;
+  }
+  button.add {
+    background-color: green;
+  }
+
+
+
